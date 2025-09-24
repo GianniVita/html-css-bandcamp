@@ -7,7 +7,8 @@
 }
 
 body{
-    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -18,17 +19,15 @@ body{
 }
 
 .debug header{
-    height: 3rem;
     background-color: blue;
 }
 
 .debug main{
     background-color: blueviolet;
-    height: 1000px;
 }
 .debug .logo-imput{
     background-color: aqua;
-    height: 15px;
+   
 }
 
 
@@ -44,7 +43,24 @@ body{
     display: flex;
 }
 
+/* header---------------> */
+
+header{
+    height: 122px;
+}
+
+
+
 /* <---------- main section -----------> */
+main{
+    height: calc(100% - 122px);
+}
+
+
 .main-left{
-    
+    width: 70%;
+}
+
+.main-right{
+    width: 30%;
 }
