@@ -27,9 +27,15 @@ body{
 }
 .debug .logo-imput{
     background-color: aqua;
-   
 }
 
+.debug .main-left{
+    background-color: chartreuse;
+}
+
+.debug .card{
+    background-color: grey;
+}
 
 
 
@@ -42,6 +48,9 @@ body{
 .d-flex{
     display: flex;
 }
+
+
+
 
 /* header---------------> */
 
@@ -59,7 +68,16 @@ main{
 
 .main-left{
     width: 70%;
+    /* overflow-y: hidden; */
 }
+
+.card{
+    margin: 1rem;
+
+}
+
+
+
 
 .main-right{
     width: 30%;
