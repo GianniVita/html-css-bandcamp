@@ -13,3 +13,11 @@ body{
 }
 /* <-------- Top Nav Bar ------> */
 
+.debug{
+    border: 1px dashed black;
+}
+
+.debug header{
+    height: 8vh;
+    background-color: blue;
+}
