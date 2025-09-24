@@ -68,7 +68,7 @@ main{
 
 .main-left{
     width: 70%;
-    /* overflow-y: hidden; */
+    overflow-y: auto;
 }
 
 .card{
@@ -76,9 +76,10 @@ main{
 
 }
 
-
-
-
 .main-right{
     width: 30%;
+}
+
+.sm-container{
+
 }
