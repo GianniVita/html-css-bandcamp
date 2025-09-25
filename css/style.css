@@ -139,7 +139,7 @@ main {
     width: 35%;
     border-left: 3px solid #3e3e3e;
     height: 100%;
-    
+
 }
 
 .card-column {
@@ -158,18 +158,22 @@ main {
     width: 100%;
     margin-top: 1rem;
     padding: 1rem;
-}  
+}
 
-.release, p {
+.release,
+p {
     padding-top: 0.5rem;
 }
 
 #g-flag {
     width: 4rem;
 }
-.main-right h4, div{
-    color:white
+
+.main-right h4,
+div {
+    color: white
 }
+
 /* Left side immages of albums -----------> */
 
 .tablet {
@@ -186,26 +190,27 @@ main {
     margin-top: 1rem;
 }
 
-.big-img{
+.big-img {
     padding: 1rem;
 }
+
 /* Right side immages of albums -----------> */
 
 .player-container {
-    display: flex;        
-    align-items: center;  
-    gap: 10px;            
-  }
-  
-  .player {
-    font-size: 2rem;      
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.player {
+    font-size: 2rem;
     cursor: pointer;
-  }
-  
-  .player-info h4 {
+}
+
+.player-info h4 {
     margin: 0;
     font-size: 1rem;
-  }
+}
 
 .btn-white {
     background-color: white;
