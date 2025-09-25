@@ -138,7 +138,6 @@ main {
 .main-right {
     width: 35%;
     border-left: 3px solid #3e3e3e;
-    
     height: 100%;
     
 }
@@ -192,8 +191,11 @@ main {
 }
 /* Right side immages of albums -----------> */
 
-.info-player {
-    display: inline-block;
+.player {
+    display: flex;
+}
+.player-info{
+    display: inline;
 }
 
 .btn-white {
