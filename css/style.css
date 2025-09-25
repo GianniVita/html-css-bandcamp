@@ -123,35 +123,35 @@ main {
 
 }
 
-h4,
-p,
-span {
+.card-column {
     color: white;
 }
 
 .main-left {
     width: 65%;
     padding: 1rem;
+    gap: 10px;
     flex-wrap: wrap;
     overflow-y: auto;
 }
 
 .main-right {
     width: 35%;
+    border-left: 6px solid green;
+  height: 500px;
+    
 }
 
 .card-column {
-    display: flex;
-    flex-wrap: wrap;
+    
+    
     margin-top: 1rem;
-    width: calc(100% / 4);
+    width: calc((100% - 30px) / 4);
 }
 
 .card-column img {
     width: 100%;
     height: auto;
-    flex: 1 1 180px;
-    
     border-style: solid;
     border-color: lightgrey;
 }
@@ -159,10 +159,10 @@ span {
 .main-right img {
     width: 100%;
     margin-top: 1rem;
-}
+    padding: 1rem;
+}  
 
-.release,
-p {
+.release, p {
     padding-top: 0.5rem;
 }
 
@@ -185,6 +185,11 @@ p {
 .count {
     margin-top: 1rem;
 }
+
+.big-img{
+    padding: 1rem;
+}
+/* Right side immages of albums -----------> */
 
 .info-player {
     display: inline-block;
@@ -223,7 +228,7 @@ p {
 
     .card-column {
         margin-top: 1rem;
-        width: calc(100% / 2);
+        width: calc((100% - 10px) / 2);
     }
 
     .tablet {
@@ -256,7 +261,7 @@ p {
 
     .card-column {
         margin-top: 1rem;
-        width: calc(100% / 2);
+        width: calc((100% - 10px) / 2);
     }
 
     .logo-mobile {
