@@ -162,12 +162,16 @@ h4, p, span{
 }
 
 .fa-circle-play{
+    display: inline;
     font-size: 4rem;
     color: white;
 }
 
 .count{
     margin-top: 1rem;
+}
+.info-player{
+    display: inline-block;
 }
 
 .btn-white{
