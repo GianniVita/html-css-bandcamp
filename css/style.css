@@ -101,8 +101,6 @@ input, .tag{
     border-style: solid;
     border-radius: 2rem;
     padding: 8px;
-
-
 }
 
 
@@ -121,22 +119,21 @@ h4, p, span{
 
 .main-left{
     width: 70%;
+    padding: 1rem;
     flex-wrap: wrap;
     overflow-y: auto;
-    
-    display: grid;
-    grid-template-rows: 4;
-
 }
 
 .main-right{
     width: 30%;
 }
 
-.card{
+.card-column{
+
     margin-top: 1rem;
     margin-left: 1rem;
-    height: 280px;
+    
+    width: calc(100% / 4);
 
 }
 
@@ -154,7 +151,7 @@ h4, p, span{
 /* Left side immages of albums -----------> */
 
 .big-img{
-    padding-left: 2rem;
+    
 }
 
 i{
