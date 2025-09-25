@@ -49,6 +49,9 @@ body{
     display: flex;
 }
 
+.d-block{
+    display: block;
+}
 
 
 
@@ -74,7 +77,12 @@ a{
 /* <---------- main section -----------> */
 main{
     height: calc(100% - 122px);
+    background-color: #222222;
     
+}
+
+h4, p, span{
+    color: white;
 }
 
 
@@ -99,6 +107,23 @@ main{
 }
 
 .main-right img{
-    width: 360px;
+    width: 400px;
     margin-top: 1rem;
+}
+
+/* Left side immages of albums -----------> */
+
+.big-img{
+    padding-left: 2rem;
+}
+
+i{
+    height: 1rem;
+
+}
+
+.btn-white{
+    background-color: white;
+    border: none;
+    
 }
