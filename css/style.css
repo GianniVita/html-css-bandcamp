@@ -208,6 +208,8 @@ h4, p, span{
     
     .main-left{
         width: 100%;
+        height: auto;
+        margin: 0 auto;
     }
     
     .main-right{
