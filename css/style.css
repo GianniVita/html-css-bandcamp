@@ -214,6 +214,9 @@ h4, p, span{
         .tablet{
             visibility: visible;
         }
+        .logo-mobile{
+            visibility: hidden;
+        }
 }
 
 
@@ -237,7 +240,10 @@ h4, p, span{
     .card-column{
         margin-top: 1rem;
         width: calc(100% / 2);
-
+    }
+        .logo-mobile{
+            visibility: hidden;
+        }
 
 }
 
@@ -249,7 +255,12 @@ h4, p, span{
             visibility: hidden;
         }
 
+        .logo-mobile{
+            visibility: hidden;
+        }
+
 }
+
 
 @media  screen and (max-width:320px){
    
@@ -267,7 +278,12 @@ h4, p, span{
     }
     .logo {
         padding-left: 1rem; 
-        
+    }
+    .logo-mobile{
+        visibility: visible;
+    }
+    .logo{
+        visibility: hidden;
     }
 } 
 
