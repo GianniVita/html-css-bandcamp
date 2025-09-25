@@ -131,6 +131,7 @@ h4, p, span{
     padding: 1rem;
     flex-wrap: wrap;
     overflow-y: auto;
+    
    
 }
 
@@ -201,6 +202,9 @@ h4, p, span{
 
 @media  screen and (max-width:744px) {
 
+        .search{
+           display: ;
+        }
 }
 
 
