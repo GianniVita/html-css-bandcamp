@@ -177,7 +177,11 @@ div {
 /* Left side immages of albums -----------> */
 
 .tablet {
-    visibility: visible;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px;
 }
 
 .fa-circle-play {
@@ -211,7 +215,14 @@ div {
     margin: 0;
     font-size: 1rem;
 }
-
+.tablet {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tablet .btn-black {
+    margin-left: auto;
+  }
 .btn-white {
     background-color: white;
     border: none;
