@@ -98,12 +98,16 @@ h4, p, span{
 }
 
 .card{
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
     height: 280px;
+
 }
 
 .card img{
     width: 200px;
+    border-style: solid;
+    border-color: lightgrey;
 }
 
 .main-right img{
@@ -118,12 +122,39 @@ h4, p, span{
 }
 
 i{
-    height: 1rem;
+    width: 3rem;
+    color: white;
+}
 
+.count{
+    margin-top: 1rem;
 }
 
 .btn-white{
     background-color: white;
     border: none;
+    font-size: larger;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    height: 3rem;
+    width: 24rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+
+/* Section responsivenes ------------------------> */
+
+@media  screen and (max-width:744px) {
     
 }
