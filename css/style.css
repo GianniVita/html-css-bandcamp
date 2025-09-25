@@ -72,9 +72,13 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.logo{
+    padding-left: 1rem;
+}
 
 .logo-input{
     align-items: center;
+
 }
 
 .search{
@@ -93,6 +97,7 @@ input, .tag{
     background-color: #2b2b2b;
     margin-left: 1.2rem;
     margin-top: 1rem;
+    padding-right: 14rem;
     border-style: solid;
     border-radius: 2rem;
     padding: 8px;
