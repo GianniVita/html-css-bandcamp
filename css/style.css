@@ -148,7 +148,7 @@ h4, p, span{
 }
 
 .main-right img{
-    width: 400px;
+    width: 100%;
     margin-top: 1rem;
 }
 
@@ -160,8 +160,8 @@ h4, p, span{
 }
 /* Left side immages of albums -----------> */
 
-.big-img{
-    
+.tablet{
+    visibility: hidden;
 }
 
 .fa-circle-play{
@@ -207,7 +207,16 @@ h4, p, span{
         .search{
            display:none;
         }
+        .card-column{
+            margin-top: 1rem;
+            width: calc(100% / 2);
+        }
+        .tablet{
+            visibility: visible;
+        }
 }
+
+
 
 
 @media  screen and (max-width:600px) {
@@ -236,6 +245,9 @@ h4, p, span{
 
 
 @media  screen and (max-width:1280px) {
+        .tablet{
+            visibility: hidden;
+        }
 
 }
 
