@@ -182,7 +182,7 @@ h4, p, span{
     border: none;
     font-size: larger;
     height: 3rem;
-    width: 24rem;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
@@ -193,7 +193,7 @@ h4, p, span{
     color: white;
     font-size: larger;
     height: 3rem;
-    width: 24rem;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
@@ -251,5 +251,24 @@ h4, p, span{
 
 }
 
+@media  screen and (max-width:320px){
+   
+    .main-left{
+        width: 100vh;
+        height: auto;
+        margin: 0 auto;
+    }
+    .card-column{
+        margin-top: 1rem;
+        width: calc(100% / 1);
+    }
+    .tag {
+        padding-right: 4rem;
+    }
+    .logo {
+        padding-left: 1rem; 
+        
+    }
+} 
 
 
