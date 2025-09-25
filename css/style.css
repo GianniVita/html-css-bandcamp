@@ -191,12 +191,21 @@ main {
 }
 /* Right side immages of albums -----------> */
 
-.player {
-    display: flex;
-}
-.player-info{
-    display: inline;
-}
+.player-container {
+    display: flex;        
+    align-items: center;  
+    gap: 10px;            
+  }
+  
+  .player {
+    font-size: 2rem;      
+    cursor: pointer;
+  }
+  
+  .player-info h4 {
+    margin: 0;
+    font-size: 1rem;
+  }
 
 .btn-white {
     background-color: white;
