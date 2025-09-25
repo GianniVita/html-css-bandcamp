@@ -190,5 +190,27 @@ i{
 /* Section responsivenes ------------------------> */
 
 @media  screen and (max-width:744px) {
-    
+
 }
+
+
+@media  screen and (max-width:600px) {
+    
+    .main-left{
+        width: 100%;
+    }
+    
+    .main-right{
+        display: none;
+    }
+}
+
+
+
+
+@media  screen and (max-width:1280px) {
+
+}
+
+
+
