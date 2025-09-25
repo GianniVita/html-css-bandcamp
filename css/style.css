@@ -137,14 +137,13 @@ main {
 
 .main-right {
     width: 35%;
-    border-left: 6px solid green;
-  height: 500px;
+    border-left: 3px solid #3e3e3e;
+    
+    height: 100%;
     
 }
 
 .card-column {
-    
-    
     margin-top: 1rem;
     width: calc((100% - 30px) / 4);
 }
@@ -169,11 +168,13 @@ main {
 #g-flag {
     width: 4rem;
 }
-
+.main-right h4, div{
+    color:white
+}
 /* Left side immages of albums -----------> */
 
 .tablet {
-    visibility: hidden;
+    visibility: visible;
 }
 
 .fa-circle-play {
@@ -218,7 +219,7 @@ main {
 }
 
 
-/* Section responsivenes ------------------------> */
+/* <--------------------------------- Section responsivenes ------------------------> */
 
 @media screen and (max-width:744px) {
 
@@ -319,4 +320,25 @@ main {
     .logo {
         visibility: hidden;
     }
+}
+
+@media screen and (min-width:1280px) {
+    .tablet {
+        visibility: visible;
+    }
+
+    .tag {
+        padding-right: 20rem;
+        width: auto;
+    }
+
+    .logo-mobile {
+        visibility: hidden;
+    }
+
+    .main-left {
+        background-color: #993324;
+    }
+
+
 }
