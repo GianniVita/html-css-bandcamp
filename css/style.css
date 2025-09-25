@@ -125,14 +125,11 @@ h4, p, span{
     color: white;
 }
 
-
 .main-left{
     width: 70%;
     padding: 1rem;
     flex-wrap: wrap;
     overflow-y: auto;
-    
-   
 }
 
 .main-right{
@@ -140,7 +137,6 @@ h4, p, span{
 }
 
 .card-column{
-
     margin-top: 1rem;
     width: calc(100% / 4);
 }
@@ -156,6 +152,12 @@ h4, p, span{
     margin-top: 1rem;
 }
 
+.release, p{
+    padding-top: 0.5rem;
+}
+#g-flag {
+    width: 4rem;
+}
 /* Left side immages of albums -----------> */
 
 .big-img{
@@ -203,7 +205,7 @@ h4, p, span{
 @media  screen and (max-width:744px) {
 
         .search{
-           display: ;
+           display:none;
         }
 }
 
@@ -211,7 +213,7 @@ h4, p, span{
 @media  screen and (max-width:600px) {
     
     .main-left{
-        width: 100%;
+        width: 100vh;
         height: auto;
         margin: 0 auto;
     }
@@ -223,6 +225,11 @@ h4, p, span{
     .search{
         display: none;
     }
+    .card-column{
+        margin-top: 1rem;
+        width: calc(100% / 2);
+
+
 }
 
 
