@@ -69,7 +69,35 @@ a{
 }
 
 .top-header{
+    align-items: center;
     justify-content: space-between;
+}
+
+.logo-input{
+    align-items: center;
+}
+
+.search{
+    border-radius: 0;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.functions{
+    margin-right: 1rem;
+    gap: 1rem;
+}
+
+
+input, .tag{
+    background-color: #2b2b2b;
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 8px;
+
+
 }
 
 
@@ -90,6 +118,9 @@ h4, p, span{
     width: 70%;
     flex-wrap: wrap;
     overflow-y: auto;
+    
+    display: grid;
+    grid-template-rows: 4;
 
 }
 
