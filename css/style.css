@@ -89,6 +89,26 @@ a {
     padding-right: 4rem;
 }
 
+.search-box {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 300px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 26px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.search-box .search {
+    width: 100%;
+    padding: 8px 12px 8px 35px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 
 
 .functions {
@@ -217,14 +237,17 @@ div {
     margin: 0;
     font-size: 1rem;
 }
+
 .tablet {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 .tablet .btn-black {
     margin-left: auto;
-  }
+}
+
 .btn-white {
     background-color: white;
     border: none;
